@@ -1,1 +1,70 @@
-body{font-family:Arial, sans-serif;margin:40px;}
+/* Base */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Estructura */
+header, main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Cabecera */
+header {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+header p {
+  margin-top: 8px;
+  color: #666;
+}
+
+/* Secciones */
+section {
+  margin-top: 50px;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Listas */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Enlaces */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Pie */
+footer {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #777;
+}
