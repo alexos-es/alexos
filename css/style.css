@@ -68,3 +68,12 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+
+nav {
+  margin-bottom: 50px;
+}
+
+nav a {
+  margin-right: 20px;
+  font-weight: 500;
+}
