@@ -1,76 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alexos</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Alexos · IT manager, cloud consultant y docente">
-  <link rel="stylesheet" href="./css/style.css">
+  <meta name="description" content="Alexos · tecnología, diseño y acompañamiento digital" />
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --fg: #e6e6e6;
+      --muted: #9a9a9a;
+      --accent: #f5c400;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header img.logo {
+      width: 160px;
+      max-width: 70%;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin: 0.5rem 0;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    p.lead {
+      max-width: 640px;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+
+    section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    ul.services {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    ul.services li {
+      background: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-<nav>
-  <a href="index.html">Inicio</a>
-  <a href="servicios.html">Servicios</a>
-  <a href="portfolio.html">Portfolio</a>
-  <a href="sobre-mi.html">Sobre mí</a>
-  <a href="contacto.html">Contacto</a>
-</nav>
 
   <header>
-    <h1>Alexos</h1>
-    <p>IT · diseño · docencia</p>
+    <!-- Sustituye el archivo por tu logo principal -->
+    <img src="alexos.png" alt="Alexos" class="logo" />
+    <h1>ALEXOS</h1>
+    <p class="lead">Tecnología, diseño y acompañamiento digital. Soluciones claras, presencia técnica y tranquilidad.</p>
   </header>
 
-  <main>
+  <section>
+    <h2>Qué hago</h2>
+    <ul class="services">
+      <li><strong>Consultoría tecnológica</strong><br/>Asesoramiento claro para autónomos, centros educativos y pequeños proyectos.</li>
+      <li><strong>Soporte y sistemas</strong><br/>Acompañamiento técnico continuo, mantenimiento y resolución de incidencias.</li>
+      <li><strong>Diseño y web</strong><br/>Identidad, web sencilla y funcional, foco en lo esencial.</li>
+      <li><strong>Educación digital</strong><br/>Docencia, formación y diseño de modelos digitales sostenibles.</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>Perfil</h2>
-      <p>
-        Profesional de las tecnologías de la información con experiencia en
-        administración de sistemas, cloud computing y gestión de entornos
-        Microsoft 365.
-      </p>
-      <p>
-        Especializado en gobierno, seguridad y gestión de dispositivos,
-        combinando la práctica profesional con la docencia.
-      </p>
-    </section>
-
-    <section>
-      <h2>Áreas de trabajo</h2>
-      <ul>
-        <li>Administración de sistemas y redes</li>
-        <li>Microsoft 365 · Azure · Intune</li>
-        <li>Consultoría y soporte IT</li>
-        <li>Diseño web y corporativo</li>
-        <li>Formación y docencia técnica</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Enfoque</h2>
-      <p>
-        Trabajo orientado a la claridad, la estructura y la mejora continua
-        de los entornos digitales, tanto en organizaciones como en proyectos
-        personales.
-      </p>
-    </section>
-
-    <section>
-      <h2>Contacto</h2>
-      <p>
-        Puedes encontrarme en:
-      </p>
-      <ul>
-        <li><a href="https://github.com/alexos-es">GitHub</a></li>
-        <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-      </ul>
-    </section>
-
-  </main>
+  <section>
+    <h2>Contacto</h2>
+    <p>Si necesitas una presencia técnica estable o simplemente alguien que te ayude a ordenar lo digital:</p>
+    <p><a href="mailto:hola@alexos.es">hola@alexos.es</a></p>
+  </section>
 
   <footer>
-    <p>© Alexos</p>
+    © Alexos · est. 1987
   </footer>
 
 </body>
