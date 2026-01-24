@@ -1,125 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Alexos</title>
-  <meta name="description" content="Alexos · tecnología, diseño y acompañamiento digital" />
-  <style>
-    :root {
-      --bg: #0f0f0f;
-      --fg: #e6e6e6;
-      --muted: #9a9a9a;
-      --accent: #f5c400;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
-      background: var(--bg);
-      color: var(--fg);
-      line-height: 1.6;
-    }
-
-    header {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    header img.logo {
-      width: 160px;
-      max-width: 70%;
-      margin-bottom: 1.5rem;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      margin: 0.5rem 0;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-    }
-
-    p.lead {
-      max-width: 640px;
-      color: var(--muted);
-      margin-top: 0.5rem;
-    }
-
-    section {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 4rem 2rem;
-    }
-
-    h2 {
-      font-size: 1.6rem;
-      margin-bottom: 1rem;
-    }
-
-    ul.services {
-      list-style: none;
-      padding: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-    }
-
-    ul.services li {
-      background: #1a1a1a;
-      padding: 1.5rem;
-      border-radius: 8px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover { text-decoration: underline; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexos · tecnología, diseño y acompañamiento digital">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
-  <header>
-    <!-- Sustituye el archivo por tu logo principal -->
-    <img src="alexos.png" alt="Alexos" class="logo" />
-    <h1>ALEXOS</h1>
-    <p class="lead">Tecnología, diseño y acompañamiento digital. Soluciones claras, presencia técnica y tranquilidad.</p>
-  </header>
+<header class="site-header">
+  <a href="index.html" class="logo">Alexos</a>
+  <nav>
+    <a href="about.html">Sobre mí</a>
+    <a href="services.html">Servicios</a>
+    <a href="projects.html">Proyectos</a>
+    <a href="contact.html">Contacto</a>
+  </nav>
+</header>
 
-  <section>
-    <h2>Qué hago</h2>
-    <ul class="services">
-      <li><strong>Consultoría tecnológica</strong><br/>Asesoramiento claro para autónomos, centros educativos y pequeños proyectos.</li>
-      <li><strong>Soporte y sistemas</strong><br/>Acompañamiento técnico continuo, mantenimiento y resolución de incidencias.</li>
-      <li><strong>Diseño y web</strong><br/>Identidad, web sencilla y funcional, foco en lo esencial.</li>
-      <li><strong>Educación digital</strong><br/>Docencia, formación y diseño de modelos digitales sostenibles.</li>
-    </ul>
+<main>
+  <section class="hero">
+    <h1>Tecnología clara. Presencia técnica. Tranquilidad digital.</h1>
+    <p>Acompaño a personas y organizaciones a ordenar su ecosistema digital.</p>
   </section>
+</main>
 
-  <section>
-    <h2>Contacto</h2>
-    <p>Si necesitas una presencia técnica estable o simplemente alguien que te ayude a ordenar lo digital:</p>
-    <p><a href="mailto:hola@alexos.es">hola@alexos.es</a></p>
-  </section>
-
-  <footer>
-    © Alexos · est. 1987
-  </footer>
+<footer class="site-footer">
+  © Alexos · est. 1987
+</footer>
 
 </body>
 </html>

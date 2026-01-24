@@ -1,0 +1,25 @@
+.site-header {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-header a {
+  color: var(--fg);
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.hero {
+  max-width: var(--max-width);
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+}
