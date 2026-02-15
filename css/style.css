@@ -1,86 +1,150 @@
-/* Base */
+/* =========================
+   Base tipográfica
+========================= */
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 0;
-  color: #222;
+  color: #111;
   background-color: #ffffff;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
+  margin: 0;
+  color: #000;
 }
 
+/* =========================
+   Estructura general
+========================= */
 
-/* Estructura */
 header, main, footer {
-  max-width: 900px;
+  max-width: 760px;   /* Más estrecho = más editorial */
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
-/* Cabecera */
+/* =========================
+   Cabecera
+========================= */
+
 header {
-  border-bottom: 1px solid #e0e0e0;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -1px;
 }
 
 header p {
-  margin-top: 8px;
-  color: #666;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #555;
 }
 
-/* Secciones */
-section {
-  margin-top: 50px;
-}
-
-section h2 {
-  font-size: 1.4rem;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-/* Listas */
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 6px;
-}
-
-/* Enlaces */
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Pie */
-footer {
-  border-top: 1px solid #e0e0e0;
-  margin-top: 60px;
-  font-size: 0.9rem;
-  color: #777;
-}
+/* =========================
+   Navegación
+========================= */
 
 nav {
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 nav a {
-  margin-right: 20px;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.75rem;
+  margin-right: 30px;
+  color: #000;
+}
+
+nav a:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* =========================
+   Secciones
+========================= */
+
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: -0.5px;
+}
+
+/* =========================
+   Párrafos
+========================= */
+
+p {
+  margin-bottom: 20px;
+}
+
+/* =========================
+   Listas
+========================= */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: #999;
+}
+
+/* =========================
+   Enlaces
+========================= */
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+a:hover {
+  opacity: 0.6;
+  border-bottom: 1px solid #000;
+}
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 0.8rem;
+  color: #777;
+  border-top: 1px solid #eee;
 }
