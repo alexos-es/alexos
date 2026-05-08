@@ -456,3 +456,31 @@ nav a:hover {
   }
 
 }
+
+.linkedin-inline {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  flex-wrap: wrap;
+
+  font-size: .95rem;
+}
+
+.linkedin-inline span {
+  color: rgba(255,255,255,.55);
+}
+
+.linkedin-inline a {
+  color: white;
+
+  font-weight: 500;
+
+  transition: .2s ease;
+}
+
+.linkedin-inline a:hover {
+  opacity: .75;
+}
