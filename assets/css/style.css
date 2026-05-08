@@ -403,18 +403,12 @@ nav a:hover {
     position: relative;
     overflow: hidden;
 
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
     padding: 7rem 0 6rem;
-
-    background:
-      linear-gradient(
-        rgba(10,12,16,.62),
-        rgba(10,12,16,.68)
-      ),
-      url('https://alexos.es/assets/img/hero-bg.png');
-
-    background-size: cover;
-    background-position: 70% center;
-    background-repeat: no-repeat;
   }
 
   .hero-meta {
