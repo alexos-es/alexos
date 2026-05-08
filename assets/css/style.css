@@ -74,10 +74,12 @@ a {
 }
 
 .logo img {
-  width: 38px;
-  height: 38px;
+  width: 24px;
+  height: 24px;
 
   object-fit: contain;
+
+  opacity: .92;
 }
 
 nav {
