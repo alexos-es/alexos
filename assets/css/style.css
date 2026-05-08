@@ -484,3 +484,50 @@ nav a:hover {
 .linkedin-inline a:hover {
   opacity: .75;
 }
+
+.footer {
+  padding: 4rem 0;
+
+  background:
+    linear-gradient(
+      180deg,
+      #0f172a,
+      #0b1220
+    );
+
+  border-top: 1px solid rgba(255,255,255,.06);
+
+  margin-top: 0;
+}
+
+.footer-brand h3 {
+  color: white;
+
+  font-size: 1.2rem;
+
+  margin-bottom: .5rem;
+}
+
+.footer-brand p {
+  color: rgba(255,255,255,.72);
+
+  margin-bottom: .6rem;
+}
+
+.footer-brand span {
+  color: rgba(255,255,255,.45);
+
+  font-size: .95rem;
+}
+
+.footer-links {
+  display: flex;
+
+  gap: 2rem;
+
+  flex-wrap: wrap;
+}
+
+.footer-links a:hover {
+  color: white;
+}
