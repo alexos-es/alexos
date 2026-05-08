@@ -324,6 +324,17 @@ nav a:hover {
   color: var(--muted);
 }
 
+.card svg {
+  width: 28px;
+  height: 28px;
+
+  margin-bottom: 1.2rem;
+
+  color: #60a5fa;
+
+  stroke-width: 1.8;
+}
+
 .timeline {
   display: flex;
   flex-direction: column;
