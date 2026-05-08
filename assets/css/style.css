@@ -410,7 +410,7 @@ nav a:hover {
         rgba(10,12,16,.62),
         rgba(10,12,16,.68)
       ),
-      url('../img/hero-bg.png');
+      url('https://alexos.es/assets/img/hero-bg.png');
 
     background-size: cover;
     background-position: center;
