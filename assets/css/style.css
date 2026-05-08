@@ -94,13 +94,7 @@ nav a:hover {
 
   padding: 7rem 0 6rem;
 
-  background-image:
-    linear-gradient(
-      rgba(10,12,16,.58),
-      rgba(10,12,16,.72)
-    ),
-    url('../img/hero-bg.png');
-
+  background: #111827;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -413,21 +407,6 @@ nav a:hover {
     padding: 7rem 0 6rem;
   }
 
-  .hero::before {
-    content: "";
-
-    position: absolute;
-    inset: 0;
-
-    background:
-      linear-gradient(
-        rgba(10,12,16,.18),
-        rgba(10,12,16,.32)
-      );
-
-    z-index: 2;
-  }
-
   .hero-bg {
     position: absolute;
     inset: 0;
@@ -437,6 +416,8 @@ nav a:hover {
 
     object-fit: cover;
     object-position: center center;
+
+    opacity: .45;
 
     z-index: 1;
   }
