@@ -49,7 +49,7 @@ a {
   top: 0;
   z-index: 50;
 
-  background: rgba(15,17,23,.45);
+  background: rgba(11,18,32,.72);
   backdrop-filter: blur(14px);
 
   border-bottom: 1px solid var(--line);
@@ -97,21 +97,21 @@ nav a:hover {
   background:
     radial-gradient(
       circle at top right,
-      rgba(96,165,250,.16),
-      transparent 28%
+      rgba(96,165,250,.18),
+      transparent 24%
     ),
 
     radial-gradient(
       circle at bottom left,
       rgba(59,130,246,.10),
-      transparent 24%
+      transparent 20%
     ),
 
     linear-gradient(
       135deg,
-      #0f172a,
-      #111827 40%,
-      #1e293b
+      #0b1220,
+      #111827 45%,
+      #1f2937
     );
 }
 
