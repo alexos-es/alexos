@@ -84,7 +84,24 @@ nav a:hover {
 .hero {
   position: relative;
   overflow: hidden;
+
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
   padding: 7rem 0 6rem;
+
+  background-image:
+    linear-gradient(
+      rgba(10,12,16,.58),
+      rgba(10,12,16,.72)
+    ),
+    url('../img/hero-bg.png');
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .hero-grid {
