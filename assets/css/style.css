@@ -126,7 +126,7 @@ nav a:hover {
 
 .lead {
   font-size: 1.28rem;
-  color: rgba(255,255,255,.78);
+  color: rgba(255,255,255,.82);
   max-width: 720px;
 }
 
@@ -147,7 +147,7 @@ nav a:hover {
 }
 
 .hero-meta span {
-  color: rgba(255,255,255,.68);
+  color: rgba(255,255,255,.7);
   font-size: .95rem;
 }
 
