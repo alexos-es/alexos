@@ -63,8 +63,21 @@ a {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+
   font-weight: 600;
   letter-spacing: -.02em;
+
+  color: white;
+}
+
+.logo img {
+  width: 38px;
+  height: 38px;
+
+  object-fit: contain;
 }
 
 nav {
