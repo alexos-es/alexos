@@ -421,8 +421,8 @@ nav a:hover {
 
     background:
       linear-gradient(
-        rgba(10,12,16,.42),
-        rgba(10,12,16,.58)
+        rgba(10,12,16,.18),
+        rgba(10,12,16,.32)
       );
 
     z-index: 2;
