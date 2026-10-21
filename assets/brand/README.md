@@ -1,6 +1,6 @@
 # AlexOS · Identidad editorial
 
-Paleta aprobada: carbón #292831, marfil #EAE8E3, terracota #B28E77; secundarios pizarra #77717C y gris #C6C3C1.
+Paleta revisada: azul tinta #172e45, fondo fresco #f7f8fa y acento azul #225dc0; texto secundario #566878 y líneas #dce2e8. Se recupera la paleta del sitio publicado, manteniendo la tipografía editorial.
 Lora para titulares y wordmark; Inter para interfaz y cuerpo. Fuentes locales con licencia OFL.
 
 El archivo emblema-original.png es una copia binaria del original. Ningún trazo, letra ni trenzado se ha redibujado, recortado o recoloreado. Las exportaciones solo escalan proporcionalmente el conjunto y añaden margen/fondo. No se ha inventado un símbolo reducido: se conserva el emblema íntegro también en los iconos, cuya legibilidad debe valorarse a tamaño pequeño.
